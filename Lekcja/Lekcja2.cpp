@@ -4,16 +4,12 @@ int main(){
 
 int a = 97;
 cout << "0-49 punktow: niedostateczna" << endl;
-
 cout << "50-69 punktow: dostateczna" << endl;
-
 cout << "70-84 punktow: dobra" << endl;
-
 cout << "85-99 punktow: bardzo dobra" << endl;
-
 cout << "100 punktow: celujaca" << endl;
 
-cout << "Podaj liczbe punktow:" << a << endl;
+cout << "Podaj liczbe punktow:" << int a << endl;
 
 if (a <= 49) {
 	cout << "Ocena niedostateczna" << endl;
