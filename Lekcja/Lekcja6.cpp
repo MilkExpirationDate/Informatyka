@@ -17,5 +17,4 @@ cout << "Suma liczb od 1 do " << N << ": " << wynik << endl;
 
 
 
-
 }
