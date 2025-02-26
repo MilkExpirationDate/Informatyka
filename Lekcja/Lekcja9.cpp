@@ -3,7 +3,7 @@ using namespace std;
 int main () {
 	
 int tablica[5];
-cout << "Wprowadz 5 liczb calakowitych:\n" ;
+cout << "Wprowadz 5 liczb calakowitych:\n";
 
 for (int i = 0; i < 5; i++) {
 
