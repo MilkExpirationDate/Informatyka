@@ -11,10 +11,8 @@ getline(cin, a);
 string ReverseString(string s1) {
 int dlugosc = s1.length();
 string s2;
-for (int i = dlugosc; i >= 0; i--) {
-	
-s2 = s2 + s1[i];
-	
+for (int i = dlugosc; i >= 0; i--) {	
+s2 = s2 + s1[i];	
 }
 	return s2;
 }
